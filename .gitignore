@@ -1,0 +1,47 @@
+﻿/gh
+
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and output
+build/
+dist/
+out/
+*.egg-info/
+
+# Temp and log
+*.tmp
+*.temp
+*.log
+
+# 3d
+*.las
+*.laz
+*.e57
+*.pcd
+*.ply
+*.xyz
+*.pts
