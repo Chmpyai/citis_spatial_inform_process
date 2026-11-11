@@ -1,0 +1,6 @@
+input_value,expected_output_value
+40,0
+60,0
+110,128
+160,255
+200,255

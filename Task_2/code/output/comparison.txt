@@ -1,0 +1,17 @@
+Topic 2: RGB Levels comparison
+Python points: 500
+CloudCompare points: 500
+Same ID set: True
+Maximum XYZ difference (m): 4.8e-07
+Maximum RGB channel difference: 1
+Number of differing RGB channels: 698
+Pass RGB tolerance <= 1: True
+Control RGB values (CloudCompare):
+ID 1: expected (0, 0, 128), CloudCompare (np.int64(0), np.int64(0), np.int64(127))
+ID 2: expected (0, 128, 255), CloudCompare (np.int64(0), np.int64(127), np.int64(254))
+ID 3: expected (128, 255, 255), CloudCompare (np.int64(127), np.int64(254), np.int64(255))
+ID 4: expected (255, 255, 0), CloudCompare (np.int64(254), np.int64(255), np.int64(0))
+ID 5: expected (255, 0, 0), CloudCompare (np.int64(255), np.int64(0), np.int64(0))
+
+Required control mapping: 40->0, 60->0, 110->128, 160->255, 200->255
+Clipping examples: 40 and 60 both map to 0; 160 and 200 both map to 255.
